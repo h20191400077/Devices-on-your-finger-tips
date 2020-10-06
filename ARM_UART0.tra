@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'ARM_UART0.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"common.o"'
+### List of Objects: adding '"serial0_driver.o"'
+### List of Objects: adding '"serial0_teststub.o"'
+### List of Objects: adding '"adc_driver.o"'
+### List of Objects: adding '"lcd_driver.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "common.o" "serial0_driver.o" "serial0_teststub.o" "adc_driver.o" "lcd_driver.o" 
+--strict --scatter "ARM_UART0.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ARM_UART0.map" -o ARM_UART0.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ARM_UART0.axf'
+### ADS-LD Command File: 'ARM_UART0.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ARM_UART0.lnp', Handle=0x00000BC0
+### Writing '.lnp' file
+### ADS-LD Command file 'ARM_UART0.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,21 @@
+Dependencies for Project 'ARM_UART0', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5916C8)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\common.c)(0x5DBBF25C)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "common.o" --omf_browse "common.crf" --depend "common.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x4F590A6C)
+I (common.h)(0x5DBBF25A)
+F (.\SERIAL0_Driver.c)(0x5DD525AD)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "serial0_driver.o" --omf_browse "serial0_driver.crf" --depend "serial0_driver.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x4F590A6C)
+I (serial0.h)(0x5DBBF25A)
+F (.\SERIAL0_TestStub.c)(0x5DD536FB)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "serial0_teststub.o" --omf_browse "serial0_teststub.crf" --depend "serial0_teststub.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x4F590A6C)
+I (common.h)(0x5DBBF25A)
+I (serial0.h)(0x5DBBF25A)
+I (adc.h)(0x4A24A47C)
+I (lcd.h)(0x4A8C48AA)
+F (.\ADC_Driver.c)(0x5DCCA424)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "adc_driver.o" --omf_browse "adc_driver.crf" --depend "adc_driver.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x4F590A6C)
+I (adc.h)(0x4A24A47C)
+F (.\LCD_Driver.c)(0x5DCC303C)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "lcd_driver.o" --omf_browse "lcd_driver.crf" --depend "lcd_driver.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x4F590A6C)
+I (lcd.h)(0x4A8C48AA)
+I (common.h)(0x5DBBF25A)

@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "common.o" "serial0_driver.o" "serial0_teststub.o" "adc_driver.o" "lcd_driver.o" 
+--strict --scatter "ARM_UART0.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ARM_UART0.map" -o ARM_UART0.axf
